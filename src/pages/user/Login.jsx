@@ -24,8 +24,8 @@ const Login = () => {
   // xử lý form bằng formik
   const formik = useFormik({
     initialValues: {
-      taiKhoan: 'thanhtien2',
-      matKhau: 'thanhtien2',
+      taiKhoan: '',
+      matKhau: '',
     },
     onSubmit: async (value) => {
       try {
