@@ -13,8 +13,8 @@ const NotFound = () => {
                     <h2>ERROR</h2>
                 </div>
                 <div className={styles.contentBox404}>
-                    <h3>Có gì đó sai ở đây</h3>
-                    <button className={styles.btn404}><NavLink to='/' >Quay Về Trang Chủ</NavLink></button>
+                    <h3>Something is wrong</h3>
+                    <button className={styles.btn404}><NavLink to='/' >go back home page</NavLink></button>
                 </div>
             </div>
         </div>
